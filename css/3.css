@@ -1,0 +1,453 @@
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url(..//imagens/fundo2.jpg) ;
+}
+
+/*MENU*/
+ul {
+    font-family: verdana;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    transition-duration: 0.5s;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    transition-duration: 0.5s;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: cornflowerblue;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    transition-duration: 0.5s;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    transition-duration: 0.5s;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: cornflowerblue;
+    transition-duration: 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 0.5s;
+}
+/*FIM DO MENU*/
+
+/* Começo do footer*/
+footer {
+    clear: both;
+    width: 98.8%;
+    text-align: center;
+    color: white;
+    background: #333;
+    height: 40%;
+    font-size: 15px;
+}
+
+p.footer {
+    font-size: 2px;
+}
+
+/* Fim do footer */
+
+article.index {
+    border: 1px solid white;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 39%;
+    height: 12%;
+    transition-duration: 0.5s;
+}
+
+article.index:hover {
+    border: 1px solid cornflowerblue; 
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+    background-color: ghostwhite;
+}
+
+header{
+    background-image: url(../imagens/logotipo.png);
+    background-size: cover;
+    height: 15em;
+}
+
+header img {
+    margin: auto;
+    margin-left: 5%;
+}
+
+article img {
+    display: block;
+    float: left ;
+    width: 35%;
+    height: 31%;
+}
+
+p.art {
+    font-size: 14px;
+    text-align: center;
+    padding: 1%;
+    font-family: verdana;
+}
+
+p a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    color: lightblue;
+}
+
+img.logo1 {
+    float: left;
+    width: 25%;
+    margin-left: 1vw;
+}
+
+img.logo {
+    padding-top: 5%;
+    width: 20%;
+    float: right;
+    margin-right: 1vw;
+
+}
+/* Inicio Contato */
+form {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 08%;
+}
+
+/* Aqui começa a parte de instituição*/
+
+
+article.inst {
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 90%;
+    height: 30%;
+}
+
+img.imginst {
+    width: 35%;
+    height: 28%;
+}                               
+
+p.fat {
+    margin-left: 20%;
+}
+
+h1.inst {
+    margin-left: 39%;
+}
+
+
+/* Aqui termina a parte de instituição */                                                                         
+
+/* Aqui começa a parte Algoritmo*/
+h1 {
+    margin-left: 20%;
+}
+
+article.alg {
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 50%;
+    height: 45%;
+}
+
+img.alg {
+    float: right;
+    padding-top: 10%;
+    margin-right: 10%;
+    width: 25%;
+    height: 24%;
+    border-radius: 1vw;
+}
+
+
+h2.alg {
+    font-size: 15px;
+}
+
+/* Aqui termina a parte de Algoritmo */
+
+article.des1 {
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 54%;
+    height: 40%;
+}
+
+/* Sobre */
+
+article.sob {
+    margin: 1%;
+    padding: 5%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 51%;
+    height: 50%;
+    margin-bottom: auto;
+}
+
+h1.sobr {
+   margin-right: 10%;
+   position: relative;
+   font-size: 20px;
+
+}
+
+p.sobre {
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+img.sobreimg {
+    margin: 1%;
+    width: 21%;
+    height: 27%;
+    margin-left: 15%;
+
+}
+
+.sobreimg:hover {
+    transition-duration: 0.5s;
+    background-color: #333;
+    transform: scale(1.03);
+}
+
+/* Aqui termina o Sobre */
+
+
+img.mat {
+    padding-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 10vw;
+    width: 22vw;
+    height: 30vw;
+}
+
+/*Botao*/
+
+
+button {
+    background-color: cornflowerblue;
+    border: none;
+    padding: 5px 7px;
+    transition-duration: 0.5s;
+    height: 9%;
+    width: 20%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #333;
+    color: cornflowerblue;
+}
+
+
+button.instituicao {
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10% 8%;
+    transition-duration: 0.5s;
+    margin-left: 30%;
+}
+button.instituicao:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #333;
+    color: cornflowerblue;
+}
+
+/*fim do botao*/
+
+/* Começo Design */
+
+img.des {
+    margin-left: 10%;
+    transition-duration: 0.8s;
+}
+
+.desi { 
+   margin: 8%; 
+   position: relative;
+   top: 8%;
+   
+}
+img.des:hover {
+    transition-duration: 0.5s;
+    background-color: #333;
+    transform: scale(1.03);
+}
+
+
+img.design {
+    width: 20%;
+    height: 30%;
+    padding-top: 1%;
+    margin-left: 7%;
+}
+
+p.dsg {
+    font-size: 15px;
+}
+
+/* Aqui termina Design */
+
+/* Padrões */
+
+
+article.pad {
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 54%;
+    height: 30%;
+    
+}
+
+img.psi {
+    float: right;
+    padding-top: 5%;
+    margin-right: 10%;
+    width: 20%;
+    height: 18%;
+    border-radius: 5px;
+}
+
+p.padsit {
+    font-size: 18px;
+}
+
+
+
+/* Aqui termina Padrões */
+
+
+article.mat {
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    width: 54%;
+    height: 30%;
+}
+
+article.trampo {
+    margin: 2% 20% 2% 20%;
+    padding: 2%;
+    float: left;
+    width: 54%;
+    background: rgba(255,255,255,0.8);
+}
+
+article.trampo:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+article.apres {
+    margin-left: 18%;
+    padding: auto;
+    float: top;
+    background: rgba(255,255,255,0.9);
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 18px;
+}
+
+h1.ind {
+    margin-left: 3%;
+}
+ 
+#galeria { 
+        padding: .5vw;
+        font-size: 0;
+        flex-flow: row wrap; 
+        display: flex;
+    }
+#galeria div { 
+        flex: auto; 
+        width: 200px; 
+        margin: .5vw; 
+    }
+#galeria div img { 
+        width: 100%; 
+        height: auto; 
+    }
+
+
+@media screen and (max-width: 420px){
+    article.index {
+      border: 1px solid white;
+      margin: 2%;
+      padding: 2%;
+      background: rgba(255,255,255,0.8);
+      width: 100%;
+  }
+
+    li {
+    float: left;
+    width: 100%;
+}
+}
